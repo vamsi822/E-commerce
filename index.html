@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Watches</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Smart Phones</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <div class="logo">Timeless Watches</div>
+        <div class="logo"> Mobiles</div>
         <div class="search-bar">
             <input type="text" placeholder="Search...">
             <button>🔍</button>
@@ -25,28 +25,26 @@
     </header>
 
     <div class="product-container">
-        <div class="product-gallery">
-            <img id="main-image" src="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/1542852/1.jpg?5491" alt="Luxury Watch">
-            <div class="thumbnails">
-                <img onclick="changeImage('https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/1542852/2.jpg?5491')" src="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/1542852/2.jpg?5491" alt="Thumbnail 1">
-                <img onclick="changeImage('https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/1542852/5.jpg?5491')" src="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/1542852/5.jpg?5491" alt="Thumbnail 2">
-                <img onclick="changeImage('https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/1542852/7.jpg?5491')" src="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/1542852/7.jpg?5491" alt="Thumbnail 3">
-                <img onclick="changeImage('https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/1542852/2.jpg?5491')" src="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/1542852/2.jpg?5491" alt="Thumbnail 1">
-                <img onclick="changeImage('https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/1542852/5.jpg?5491')" src="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/1542852/5.jpg?5491" alt="Thumbnail 2">
-                <img onclick="changeImage('https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/1542852/7.jpg?5491')" src="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/26/1542852/7.jpg?5491" alt="Thumbnail 3">
-            </div>
-        </div>
+  <div class="product-gallery">
+    <img id="main-image" src="./image/image1.jpg" alt="vivo T4 Lite 5G Charger in the Box ">
+    <div class="thumbnails">
+      <img onclick="changeImage('https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg')" src="./image/image2.jpg" alt="Front">
+      <img onclick="changeImage('https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-2.jpg')" src="./image/image3.jpg" alt="Back">
+      <img onclick="changeImage('https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-3.jpg')" src="./image/image4.jpg" alt="Side">
+      <img onclick="changeImage('https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-4.jpg')" src="./image/image5.jpg" alt="Angle">
+    </div>
+  </div>
 
         <div class="product-details">
-            <h1>Elegant Luxury Watch</h1>
-            <p class="brand">PRESTIGE TIME CO.</p>
+            <h1>vivo T4 Lite 5G Charger in the Box (Prism Blue, 128 GB)  (6 GB RAM)</h1>
+            <p class="brand">VIVO</p>
             <p class="price">
-                <span class="current-price">$499.99</span>
-                <span class="old-price">$799.99</span>
-                <span class="discount">38% OFF</span>
+                <span class="current-price">RS 10,000</span>
+                <span class="old-price">RS 20000</span>
+                <span class="discount">50% OFF</span>
             </p>
             <p class="description">
-                This luxurious timepiece combines elegance with precision craftsmanship. Perfect for formal occasions or everyday wear, it features premium materials and impeccable design.
+                Powered by a massive 6000 mAh battery, keeping you ahead of the day with uninterrupted energy for entertainment, work, and everything in between. The battery delivers extended power without adding bulk, maintaining a slim, comfortable design. It packs a massive battery capacity in a body that’s surprisingly sleek and easy to hold.
             </p>
             
             <!-- Ratings Section -->
@@ -54,9 +52,9 @@
                 <span class="star">⭐</span>
                 <span class="star">⭐</span>
                 <span class="star">⭐</span>
-
+                <span class="star">⭐</span>
                 <span class="half-star">⭐</span>
-                <p>Rated 4.8/5 (256 reviews)</p>
+                <p>Rated 4.6/5 (256 reviews)</p>
             </div>
             
             <div class="quantity-selector">
@@ -69,32 +67,17 @@
             <!-- Promotional Section -->
             <div class="promotion">
                 <h3>Limited-Time Offer!</h3>
-                <p>Get an additional 10% off your first purchase when you sign up for our newsletter.</p>
+                <p>Get an additional 7% off your first purchase when you sign up for our newsletter.</p>
                 <button class="promo-btn">Sign Up Now</button>
             </div>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2024 Timeless Watches. Crafted for Excellence.</p>
+        <p>&copy; 2025 Mobiles. Crafted for Excellence.</p>
     </footer>
 
-    <script>
-        function changeImage(imageSrc) {
-            document.getElementById('main-image').src = imageSrc;
-        }
-
-        function increaseQuantity() {
-            const quantityInput = document.getElementById('quantity');
-            quantityInput.value = parseInt(quantityInput.value) + 1;
-        }
-
-        function decreaseQuantity() {
-            const quantityInput = document.getElementById('quantity');
-            if (parseInt(quantityInput.value) > 1) {
-                quantityInput.value = parseInt(quantityInput.value) - 1;
-            }
-        }
+    <script src="./js/script.js">
     </script>
 </body>
 </html>
